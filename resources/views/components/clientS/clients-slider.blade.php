@@ -5,7 +5,7 @@
             <div class='col-12' >
                 <div id="owl-logo" class='owl-carousel owl-theme' >
 
-                    <x-clients-item ></x-clients-item>
+                    <x-clientS.clients-item ></x-clientS.clients-item>
 
                 </div>
             </div>

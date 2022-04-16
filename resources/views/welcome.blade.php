@@ -6,15 +6,15 @@
 
         <x-navbar></x-navbar>
 
-        <x-header-slider></x-header-slider>
+        <x-headerS.header-slider></x-headerS.header-slider>
 
         <x-benefits></x-benefits>
 
 {{--        <x-comment-1></x-comment-1>--}}
 
-        <x-clients-slider></x-clients-slider>
+        <x-clientS.clients-slider></x-clientS.clients-slider>
 
-        <x-projects-slider></x-projects-slider>
+        <x-projectS.projects-slider></x-projectS.projects-slider>
 
         <x-services></x-services>
 
