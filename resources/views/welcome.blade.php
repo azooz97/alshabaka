@@ -10,7 +10,7 @@
 
         <x-benefits></x-benefits>
 
-        <x-comment-1></x-comment-1>
+{{--        <x-comment-1></x-comment-1>--}}
 
         <x-clients-slider></x-clients-slider>
 

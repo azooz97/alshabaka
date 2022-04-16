@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $path = public_path('img/ourclients');
+    $files = File::allFiles($path);
+
+//    dd($files[0]);
+
+    return view('welcome',[
+        'path' => $path
+    ]);
 });

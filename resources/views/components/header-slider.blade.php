@@ -6,7 +6,7 @@
 
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                     <!--  BACKGROUND IMAGE -->
-                    <img src="images-slider/img-slide-4.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                    <img src="images-slider/1.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
                     <div class="tp-caption slide-big-heading sft"
                          data-x="center"
                          data-y="250"
@@ -40,7 +40,7 @@
 
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                     <!--  BACKGROUND IMAGE -->
-                    <img src="images-slider/img-slide-5.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                    <img src="images-slider/2.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
                     <div class="tp-caption slide-big-heading sft"
                          data-x="center"
                          data-y="250"
@@ -74,7 +74,7 @@
 
                 <li data-transition="fade" data-slotamount="10" data-masterspeed="1200" data-delay="5000">
                     <!--  BACKGROUND IMAGE -->
-                    <img src="images-slider/img-slide-6.jpg" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
+                    <img src="images-slider/3.png" alt="" data-start="0" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"/>
                     <div class="tp-caption slide-big-heading sft"
                          data-x="center"
                          data-y="250"
