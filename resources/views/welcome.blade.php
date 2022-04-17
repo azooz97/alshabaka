@@ -1,3 +1,5 @@
+{{--@dd(file_get_contents('https://order.koobs.cafe/'))--}}
+
 <x-layout>
 
     <div class="content-wrapper animsition-overlay">
@@ -18,13 +20,13 @@
 
         <x-services></x-services>
 
-        <x-gallery></x-gallery>
+        <x-gallery.gallery></x-gallery.gallery>
 
         <x-cta-1></x-cta-1>
 
-        <x-company></x-company>
+{{--        <x-company></x-company>--}}
 
-        <x-latest></x-latest>
+{{--        <x-latest></x-latest>--}}
 
         <x-footer></x-footer>
 
