@@ -18,19 +18,16 @@
                                 <a class="last" href="/">Home</a>
                             </li>
                             <li>
-                                <a class="last" href="#">Pages</a>
+                                <a class="last" href="/projects">projects</a>
                             </li>
                             <li>
-                                <a class="last" href="#">Services</a>
+                                <a class="last" href="/gallery">gallery</a>
                             </li>
                             <li>
-                                <a class="last" href="#">Portfolio</a>
+                                <a class="last" href="/contact">contact</a>
                             </li>
                             <li>
-                                <a class="last" href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a class="last" href="contact.html">Contact</a>
+                                <a class="last" href="/about-us">about us</a>
                             </li>
                         </ul>
                     </nav>
