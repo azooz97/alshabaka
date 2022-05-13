@@ -1,5 +1,3 @@
-{{--@dd(file_get_contents('https://order.koobs.cafe/'))--}}
-
 <x-layout>
 
     <div class="content-wrapper animsition-overlay">
@@ -10,7 +8,7 @@
 
         <x-headerS.header-slider></x-headerS.header-slider>
 
-        <x-benefits></x-benefits>
+        <x-benefits.benefits></x-benefits.benefits>
 
 {{--        <x-comment-1></x-comment-1>--}}
 
@@ -18,11 +16,11 @@
 
         <x-projectS.projects-slider></x-projectS.projects-slider>
 
-        <x-services></x-services>
+        <x-services.services></x-services.services>
+
+{{--        <x-cta-1></x-cta-1>--}}
 
         <x-gallery.gallery></x-gallery.gallery>
-
-        <x-cta-1></x-cta-1>
 
 {{--        <x-company></x-company>--}}
 

@@ -1,15 +1,13 @@
 @php
-    $files = File::allFiles(public_path('img/gallery/small'));
-    $size =sizeof($files);
+    use App\Models\Element;
+    $data = Element::all()->where('component','=','gallery')->sortBy('weight');
 @endphp
 
-@for($i=0;$i<$size ;$i++)
-
-    <a class="w-gallery no-border" href="img/gallery/full/{{$files[$i]->getfilename()}}">
-        <img src="img/gallery/small/{{$files[$i]->getfilename()}}" alt="" class="w-gallery-image">
+@foreach($data as $x)
+    <a class="w-gallery no-border" href="{{$x->path}}">
+        <img src="{{$x->path}}" alt="" class="w-gallery-image">
         <div class="content-gallery">
-            <span class="ti-plus"></span>
+            <span class="ti-zoom-in"></span>
         </div>
     </a>
-
-@endfor
+@endforeach

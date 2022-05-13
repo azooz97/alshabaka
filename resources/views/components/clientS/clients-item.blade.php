@@ -1,12 +1,14 @@
 @php
-    $files = File::allFiles(public_path('img/ourclients'));
-    $size =sizeof($files);
+    use App\Models\Element;
+    $data = Element::all()->where('component','=','partners')->sortBy('weight');
+    $first=array_key_first(reset($data));
+    $size=sizeof($data)+$first;
 @endphp
 
-@for($i=0;$i<$size ;$i+=3)
+@for($i=$first;$i<$size ;$i+=3)
     <div class='item'>
         <img
-            src="img/ourclients/{{$files[$i]->getfilename()}}"
+            src="{{$data[$i]->path}}"
             class="img-fluid"
             alt="Imageteam"
         />
@@ -14,7 +16,7 @@
             @continue
         @endif
         <img
-            src="img/ourclients/{{$files[$i+1]->getfilename()}}"
+            src="{{$data[$i+1]->path}}"
             class="img-fluid"
             alt="Imageteam"
         />
@@ -22,7 +24,7 @@
             @continue
         @endif
         <img
-            src="img/ourclients/{{$files[$i+2]->getfilename()}}"
+            src="{{$data[$i+2]->path}}"
             class="img-fluid"
             alt="Imageteam"
         />

@@ -5,8 +5,9 @@
             <div class="row p-3-vh">
                 <!-- logo -->
                 <a class="logo centered" href="/">
-                    <img class="h-100 init" alt="logo" src="img/logo-new.png">
-                    <img class="h-100 show" alt="logo" src="img/logo-new.png">
+                    <img class="h-100 init d-none d-lg-block" alt="logo" src="img/d.png">
+                    <img class="h-100 show d-none" alt="logo" src="img/d.png">
+                    <img class="h-100 init d-lg-none" alt="logo" src="img/fot.png">
                 </a>
                 <!-- logo end -->
 
@@ -48,5 +49,6 @@
 
         </div>
     </div>
+
 
 </header>

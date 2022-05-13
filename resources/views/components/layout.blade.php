@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cohous Furniture & Decor</title>
+    <title>Al-Shabaka</title>
     <meta content="" name="description">
     <meta content="" name="author">
     <meta content="" name="keywords">
@@ -41,78 +41,78 @@
 
 {{$slot}}
 
-<!-- sidegalery-->
-<div id="bgsidegalery"></div>
-<div id="sidegalery" class="init">
-    <div class="sidebar">
-        <div id="closesidegalery" class="cl-sidebar init">
-            <div>
-                <span class="ti-close"></span>
-            </div>
-        </div>
+{{--<!-- sidegalery-->--}}
+{{--<div id="bgsidegalery"></div>--}}
+{{--<div id="sidegalery" class="init">--}}
+{{--    <div class="sidebar">--}}
+{{--        <div id="closesidegalery" class="cl-sidebar init">--}}
+{{--            <div>--}}
+{{--                <span class="ti-close"></span>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <h3>Our Gallery</h3>
-        <div class="s-galery">
-            <div id="w-gallery-container" class="w-gallery-container">
-                <a class="w-gallery" href="img/gallery/1.jpg">
-                    <img src="img/gallery/1.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--        <h3>Our Gallery</h3>--}}
+{{--        <div class="s-galery">--}}
+{{--            <div id="w-gallery-container" class="w-gallery-container">--}}
+{{--                <a class="w-gallery" href="img/gallery/1.jpg">--}}
+{{--                    <img src="img/gallery/1.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/2.jpg">
-                    <img src="img/gallery/2.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/2.jpg">--}}
+{{--                    <img src="img/gallery/2.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/3.jpg">
-                    <img src="img/gallery/3.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/3.jpg">--}}
+{{--                    <img src="img/gallery/3.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/4.jpg">
-                    <img src="img/gallery/4.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/4.jpg">--}}
+{{--                    <img src="img/gallery/4.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/5.jpg">
-                    <img src="img/gallery/5.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/5.jpg">--}}
+{{--                    <img src="img/gallery/5.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/6.jpg">
-                    <img src="img/gallery/6.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/6.jpg">--}}
+{{--                    <img src="img/gallery/6.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/7.jpg">
-                    <img src="img/gallery/7.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/7.jpg">--}}
+{{--                    <img src="img/gallery/7.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/8.jpg">
-                    <img src="img/gallery/8.jpg" alt="" class="w-gallery-image">
-                </a>
+{{--                <a class="w-gallery" href="img/gallery/8.jpg">--}}
+{{--                    <img src="img/gallery/8.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
 
-                <a class="w-gallery" href="img/gallery/9.jpg">
-                    <img src="img/gallery/9.jpg" alt="" class="w-gallery-image">
-                </a>
-            </div>
-        </div>
-        <h3>Contact Info</h3>
-        <div class="s-address">
-            <div class="detail">
-                <span class="ti-location-pin"></span> 92490 North, New York City
-            </div>
-            <div class="detail">
-                <span class="ti-email"></span> <a href="mailto:hellocohous@cohous.com">hellocohous@cohous.com</a>
-            </div>
-            <div class="detail">
-                <span class="ti-mobile"></span> +2-789-123-654
-            </div>
-        </div>
-        <div class="s-social">
-            <a href="#"><span class="ti-twitter"></span></a>
-            <a href="#"><span class="ti-facebook"></span></a>
-            <a href="#"><span class="ti-linkedin"></span></a>
-            <a href="#"><span class="ti-instagram"></span></a>
-        </div>
+{{--                <a class="w-gallery" href="img/gallery/9.jpg">--}}
+{{--                    <img src="img/gallery/9.jpg" alt="" class="w-gallery-image">--}}
+{{--                </a>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <h3>Contact Info</h3>--}}
+{{--        <div class="s-address">--}}
+{{--            <div class="detail">--}}
+{{--                <span class="ti-location-pin"></span> 92490 North, New York City--}}
+{{--            </div>--}}
+{{--            <div class="detail">--}}
+{{--                <span class="ti-email"></span> <a href="mailto:hellocohous@cohous.com">hellocohous@cohous.com</a>--}}
+{{--            </div>--}}
+{{--            <div class="detail">--}}
+{{--                <span class="ti-mobile"></span> +2-789-123-654--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="s-social">--}}
+{{--            <a href="#"><span class="ti-twitter"></span></a>--}}
+{{--            <a href="#"><span class="ti-facebook"></span></a>--}}
+{{--            <a href="#"><span class="ti-linkedin"></span></a>--}}
+{{--            <a href="#"><span class="ti-instagram"></span></a>--}}
+{{--        </div>--}}
 
-    </div>
-</div>
-<!-- sidegalery end -->
+{{--    </div>--}}
+{{--</div>--}}
+{{--<!-- sidegalery end -->--}}
 
 <!-- ScrolltoTop -->
 <div id="totop" class="init">
